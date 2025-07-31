@@ -1,6 +1,8 @@
 # Smart Choice Manager - Site Web
 
-Ce dossier contient le site web officiel pour l'add-on Smart Choice Manager pour Google Forms.
+🌐 **Site déployé** : https://zadil.github.io/smart-choice-manager-web
+
+Ce repository contient le site web officiel pour l'add-on Smart Choice Manager pour Google Forms.
 
 ## Structure du projet
 
@@ -21,15 +23,21 @@ ChoiceEliminator2-Website/
 - **Démo interactive** - Aperçu du fonctionnement de l'add-on
 - **Politique de confidentialité complète** - Conforme aux exigences Google
 
-## Options de déploiement
+## ✅ Déploiement actuel
 
-### 1. GitHub Pages (Gratuit)
+**Status** : 🟢 Déployé sur GitHub Pages
+**URL** : https://zadil.github.io/smart-choice-manager-web
+**Repository** : https://github.com/zadil/smart-choice-manager-web
 
-1. Créez un nouveau repository sur GitHub
-2. Uploadez tous les fichiers de ce dossier
-3. Allez dans Settings > Pages
-4. Sélectionnez "Deploy from a branch" > "main"
-5. Votre site sera disponible à `https://votre-username.github.io/nom-du-repo`
+### Configuration GitHub Pages
+
+✅ **Activé** - Le site est automatiquement déployé depuis la branche `main`
+
+### Autres options de déploiement
+
+#### 1. GitHub Pages (Actuel)
+
+✅ Configuré et fonctionnel
 
 ### 2. Netlify (Gratuit)
 
@@ -47,35 +55,70 @@ ChoiceEliminator2-Website/
 
 Uploadez les fichiers sur votre serveur web via FTP/SFTP.
 
-## Personnalisation requise
+## ✅ Configuration actuelle
 
-Avant le déploiement, modifiez les éléments suivants :
+### URLs configurées :
+- **Homepage** : https://zadil.github.io/smart-choice-manager-web
+- **Privacy Policy** : https://zadil.github.io/smart-choice-manager-web/privacy.html
+- **Repository** : https://github.com/zadil/smart-choice-manager-web
 
-### Dans `index.html` et `privacy.html` :
-- Remplacez `your-username` par votre nom d'utilisateur GitHub réel
-- Mettez à jour l'email de contact : `support@smartchoicemanager.com`
-- Ajustez les liens vers votre repository
-
-### Dans `appsscript.json` (projet principal) :
-- Mettez à jour `homepageUrl` avec l'URL de votre site déployé
-- Mettez à jour `privacyPolicyUrl` avec l'URL de votre politique de confidentialité
-
-## Exemple d'URLs après déploiement
-
-Si vous déployez sur GitHub Pages :
+### Manifest Google Apps Script mis à jour :
 ```json
 {
-  "homepageUrl": "https://votre-username.github.io/ChoiceEliminator2-Website",
-  "privacyPolicyUrl": "https://votre-username.github.io/ChoiceEliminator2-Website/privacy.html"
+  "homepageUrl": "https://zadil.github.io/smart-choice-manager-web",
+  "privacyPolicyUrl": "https://zadil.github.io/smart-choice-manager-web/privacy.html"
 }
 ```
 
-## Maintenance
+### Contact configuré :
+- **Email** : support@smartchoicemanager.com
+
+## 🔧 Configuration Git
+
+Le projet utilise une configuration SSH pour GitHub :
+
+```bash
+# Remote configuré avec alias SSH
+git remote -v
+# origin  git@github-personnel:zadil/smart-choice-manager-web.git (fetch)
+# origin  git@github-personnel:zadil/smart-choice-manager-web.git (push)
+```
+
+### Pour pousser des modifications :
+```bash
+git add .
+git commit -m "Votre message de commit"
+git push origin main
+```
+
+Le site se met automatiquement à jour via GitHub Pages.
+
+## 🚀 Statut du déploiement
+
+- ✅ **Site web créé** - Design moderne et responsive
+- ✅ **Code poussé vers GitHub** - Repository configuré
+- ✅ **GitHub Pages activé** - Site accessible publiquement
+- ✅ **Manifest mis à jour** - URLs configurées dans appsscript.json
+- ✅ **Prêt pour publication** - Add-on Google Workspace conforme
+
+## 📝 Maintenance
 
 - Mettez à jour la date dans la politique de confidentialité lors de modifications
 - Ajoutez des captures d'écran de l'add-on dans le dossier `images/` si nécessaire
 - Testez régulièrement la compatibilité mobile
+- Le déploiement est automatique à chaque push sur `main`
 
-## Support
+## 🎯 Résultat
 
-Pour toute question concernant le site web, consultez la documentation ou contactez le support.
+Votre add-on Google Workspace Smart Choice Manager dispose maintenant d'un site web professionnel qui répond aux exigences de publication :
+
+- **Homepage URL** : ✅ Configurée et fonctionnelle
+- **Privacy Policy URL** : ✅ Configurée et accessible
+- **Design professionnel** : ✅ Interface moderne et responsive
+
+## 📞 Support
+
+Pour toute question concernant le site web :
+- **Email** : support@smartchoicemanager.com
+- **Repository** : https://github.com/zadil/smart-choice-manager-web
+- **Site web** : https://zadil.github.io/smart-choice-manager-web
