@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Choice Manager - Gestionnaire Intelligent de Choix pour Google Forms</title>
+    <meta name="description" content="Gérez intelligemment les limites de réponses dans vos formulaires Google Forms avec Smart Choice Manager.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.gstatic.com/images/branding/product/1x/forms_2020q4_48dp.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="https://www.gstatic.com/images/branding/product/1x/forms_2020q4_48dp.png" alt="Smart Choice Manager" class="logo">
+                    <span class="brand-name">Smart Choice Manager</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Fonctionnalités</a>
+                    <a href="#how-it-works">Comment ça marche</a>
+                    <a href="#privacy">Confidentialité</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Gérez intelligemment les choix dans vos Google Forms</h1>
+                    <p class="hero-subtitle">Smart Choice Manager vous permet de définir des limites sur les réponses de vos formulaires Google Forms, garantissant une distribution équitable des choix.</p>
+                    <div class="hero-buttons">
+                        <a href="https://workspace.google.com/marketplace" class="btn btn-primary">Installer l'Add-on</a>
+                        <a href="#how-it-works" class="btn btn-secondary">Voir la démo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="form-preview">
+                        <div class="form-header">
+                            <div class="form-title">Inscription aux ateliers</div>
+                            <div class="form-subtitle">Choisissez votre atelier préféré</div>
+                        </div>
+                        <div class="form-question">
+                            <label>Quel atelier souhaitez-vous suivre ?</label>
+                            <div class="form-options">
+                                <div class="option available">
+                                    <input type="radio" name="workshop" id="web">
+                                    <label for="web">Développement Web (3/10 places)</label>
+                                </div>
+                                <div class="option available">
+                                    <input type="radio" name="workshop" id="mobile">
+                                    <label for="mobile">Développement Mobile (7/10 places)</label>
+                                </div>
+                                <div class="option disabled">
+                                    <input type="radio" name="workshop" id="ai" disabled>
+                                    <label for="ai">Intelligence Artificielle (10/10 places - Complet)</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Fonctionnalités principales</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Configuration automatique</h3>
+                        <p>Définissez facilement des limites pour chaque option de vos questions à choix multiples.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Mise à jour en temps réel</h3>
+                        <p>Les options se désactivent automatiquement lorsque la limite est atteinte.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Suivi des réponses</h3>
+                        <p>Visualisez en temps réel le nombre de réponses pour chaque option.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Validation robuste</h3>
+                        <p>Système de validation avancé pour éviter les dépassements de limites.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>Interface intuitive</h3>
+                        <p>Configuration simple directement depuis l'interface Google Forms.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Sécurisé</h3>
+                        <p>Toutes vos données restent dans votre environnement Google Workspace.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2 class="section-title">Comment ça marche</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Installez l'add-on</h3>
+                            <p>Ajoutez Smart Choice Manager à votre Google Forms depuis le Google Workspace Marketplace.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Configurez les limites</h3>
+                            <p>Définissez le nombre maximum de réponses autorisées pour chaque option de vos questions.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Publiez votre formulaire</h3>
+                            <p>Partagez votre formulaire. Les options se désactiveront automatiquement quand les limites sont atteintes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="use-cases">
+            <div class="container">
+                <h2 class="section-title">Cas d'usage</h2>
+                <div class="use-cases-grid">
+                    <div class="use-case">
+                        <h3>📚 Inscriptions aux cours</h3>
+                        <p>Limitez le nombre d'étudiants par classe ou atelier.</p>
+                    </div>
+                    <div class="use-case">
+                        <h3>🎫 Réservation d'événements</h3>
+                        <p>Gérez les places disponibles pour vos événements.</p>
+                    </div>
+                    <div class="use-case">
+                        <h3>🍽️ Commandes de repas</h3>
+                        <p>Contrôlez les quantités commandées pour chaque plat.</p>
+                    </div>
+                    <div class="use-case">
+                        <h3>👥 Attribution d'équipes</h3>
+                        <p>Équilibrez automatiquement la taille des groupes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="privacy" class="privacy">
+            <div class="container">
+                <h2 class="section-title">Confidentialité et sécurité</h2>
+                <div class="privacy-content">
+                    <div class="privacy-item">
+                        <h3>🔒 Données sécurisées</h3>
+                        <p>Toutes vos données restent dans votre environnement Google Workspace. Aucune information n'est transmise vers des serveurs externes.</p>
+                    </div>
+                    <div class="privacy-item">
+                        <h3>📋 Politique de confidentialité</h3>
+                        <p>Nous respectons votre vie privée. Consultez notre <a href="privacy.html">politique de confidentialité complète</a>.</p>
+                    </div>
+                    <div class="privacy-item">
+                        <h3>✅ Conformité</h3>
+                        <p>Notre add-on respecte les standards de sécurité Google et les réglementations en vigueur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact et support</h2>
+                <div class="contact-content">
+                    <p>Besoin d'aide ou avez-vous des questions ? Nous sommes là pour vous aider !</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h3>📧 Email</h3>
+                            <p><a href="mailto:support@smartchoicemanager.com">support@smartchoicemanager.com</a></p>
+                        </div>
+                        <div class="contact-method">
+                            <h3>📖 Documentation</h3>
+                            <p><a href="https://github.com/zadil/smart-choice-manager-web">Guide d'utilisation sur GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="https://www.gstatic.com/images/branding/product/1x/forms_2020q4_48dp.png" alt="Smart Choice Manager" class="logo">
+                    <span>Smart Choice Manager</span>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">Politique de confidentialité</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://github.com/zadil/smart-choice-manager-web">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Smart Choice Manager. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
